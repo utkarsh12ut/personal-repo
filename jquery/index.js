@@ -57,15 +57,17 @@ function display(result){
 function fun(){  // jquery function
     $('.edit').click(function(){
         $('.submit').hide();
+        
+
+        $('#add_product_form').hide();
         $('.btn').show();
-        $('#wrapper').hide();
     })
    
 }
 
 function del(){
     $(this).click(function(){
-        $(this).remove();
+        $('#table').remove();
     })
    
 }
